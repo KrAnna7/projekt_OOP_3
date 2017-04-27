@@ -1,0 +1,15 @@
+/** { box-sizing: border-box;
+ }
+
+h1 {
+	text-align: center;
+}
+
+.create-column {
+	margin: 0, auto; 
+}
+
+.column {
+	float: left;
+	padding: 10px;
+}*/
