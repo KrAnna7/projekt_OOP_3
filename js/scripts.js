@@ -18,11 +18,11 @@ $(function(){
 
 		function createColumn() {
 		// Tworzenie elementów składowych kolumny
-			var $column = $('<div>').addClass('column /*col-sm-3 col-xs-12*/');
+			var $column = $('<div>').addClass('column col-sm-3 col-xs-11');
 			var $columnTitle = $('<h2>').addClass('column-title').text(self.name);
 			var $columnCardList = $('<ul>').addClass('column-card-list');
 			var $columnDelete = $('<button>').addClass('btn-delete').text('X Usuń kolumnę');
-			var $columnAddCard = $('<button>').addClass('add-card').text('Dodaj kartę');
+			var $columnAddCard = $('<button>').addClass('add-card btn-info').text('Dodaj kartę');
 
 		// Podpinanie odpowiednich zdarzeń
 			$columnDelete.click(function() {
